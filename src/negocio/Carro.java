@@ -11,10 +11,12 @@ public class Carro {
 
     public Carro(int potencia, double velocidad){
 
-        this.potencia = potencia;
-        this.velocidad = velocidad;
+        /*this.potencia = potencia;
+        this.velocidad = velocidad;*/
 
         //si atributos tienen restricciones se debe invocar a los setters.
+        setPotencia(potencia);
+        setVelocidad(velocidad);
 
 
     }

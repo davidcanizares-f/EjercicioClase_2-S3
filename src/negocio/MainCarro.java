@@ -3,9 +3,10 @@ package negocio;
 public class MainCarro {
     static void main() {
         //Carro c1 = new Carro();
-        Carro c2 = new Carro(2, 80);
+        Carro c2 = new Carro(-2, -80);
         //Carro c3 = new Carro();
-
+        System.out.println("La potencia del carro 2 es: " + c2.getPotencia() +
+                " y la velocidad es: " + c2.getVelocidad());
         /*c1.potencia = 2;
         c1.velocidad = 80;
 
@@ -13,8 +14,6 @@ public class MainCarro {
         c3.potencia = 2;
         c3.velocidad = 80;*/
 
-        /*System.out.println("La potencia del carro es: " + c1.potencia +
-                " y la velocidad es: " + c1.velocidad);*/
 
         /*c1.acelerar();
         c1.acelerar();
